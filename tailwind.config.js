@@ -9,7 +9,7 @@ export default {
       colors: {
         primaryColor: "",
         secondaryColor: "",
-        primaryBackgroundColor: "",
+        primaryBackgroundColor: "#2D1E6B",
         secondaryBackgroundColor: "#DD00B8",
       },
       screens: {

@@ -1,1 +1,6 @@
-export * from ''
+export * from './_home/HeroSection.jsx'
+export * from './_home/FavoriteSection.jsx'
+export * from './_home/TopGameSection.jsx'
+export * from './_home/ReviewSection.jsx'
+export * from './bars/Header.jsx'
+export * from './bars/Footer.jsx'

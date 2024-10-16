@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
-    outline: 1px solid goldenrod;
+    /* outline: 1px solid goldenrod; */
 }
 
 body {
-    /* @apply bg-background text-primary; */
+    @apply bg-primaryBackgroundColor text-white;
+    font-family: "Lato", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -19,4 +23,35 @@ html {
 
 ::-webkit-scrollbar {
     width: 0px;
+}
+
+.background_image {
+    mix-blend-mode: color-dodge;
+}
+
+.background_text {
+    background: url(../assets/images/patterns/textColor.png);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: cover;
+    background-position: center;
+}
+
+.Bungee_font {
+    font-family: "Bungee", sans-serif;
+}
+
+.bg_pattern {
+    background-image: url(../assets/images/patterns/Rectangle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg_pattern_trans {
+    background-image: url(../assets/images/patterns/Rectangle_trans.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
