@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import { Header, HeroSection, FavoriteSection, TopGameSection, ReviewSection, Footer } from '@/components'
-import '../../styles/home/homePage.css'
+import '@/styles/home/homepage.css'
 
 export const HomePage = () => {
     return (
