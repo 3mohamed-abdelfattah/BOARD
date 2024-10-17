@@ -7,8 +7,6 @@ export default {
   theme: {
     extend: {
       colors: {
-        primaryColor: "",
-        secondaryColor: "",
         primaryBackgroundColor: "#2D1E6B",
         secondaryBackgroundColor: "#DD00B8",
       },
@@ -18,6 +16,7 @@ export default {
         'lg': '1024px',
         'md': '768px',
         'sm': '640px',
+        'vsm': '400px',
       },
     },
   },
