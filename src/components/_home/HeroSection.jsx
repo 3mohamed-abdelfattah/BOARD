@@ -28,8 +28,8 @@ export const HeroSection = () => {
 
                     {/* Buttons */}
                     <span className='Bungee_font flex justify-center lg:justify-normal uppercase text-xl mt-8'>
-                        <button className='bg_pattern w-[232px] h-[74px]'>Buy now</button>
-                        <button className='hidden sm:block bg_pattern_trans w-[232px] h-[74px]'><span className='background_text'>Play now</span></button>
+                        <button className='bg_pattern w-[232px] h-[74px] hover:scale-105 transition-all ease-in-out duration-300'>Buy now</button>
+                        <button className='hidden sm:block bg_pattern_trans w-[232px] h-[74px] hover:scale-105 transition-all ease-in-out duration-300'><span className='background_text'>Play now</span></button>
                     </span>
 
                     {/* Counters */}

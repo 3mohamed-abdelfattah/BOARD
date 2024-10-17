@@ -31,7 +31,7 @@ export const FavoriteSection = (props) => {
                 </div>
                 <div className='relative'>
                     <img src={Game2} alt='Game Image' />
-                    <p className='Bungee_font uppercase absolute bottom-1 w-full text-center text-3xl'>{props.GameTitle}</p>
+                    <p className='hidden md:block Bungee_font uppercase absolute bottom-0 2xl:bottom-1 w-full text-center md:text-lg lg:text-2xl xl:text-3xl'>{props.GameTitle}</p>
                 </div>
                 <div>
                     <img src={Game3} alt='Game Image' />
@@ -40,8 +40,8 @@ export const FavoriteSection = (props) => {
 
             {/* Buttons */}
             <span className='Bungee_font flex justify-center uppercase sm:text-xl mt-5 sm:mt-20'>
-                <button className='bg_pattern w-44 sm:w-[232px] h-10 sm:h-[74px]'>View All</button>
-                <button className='hidden sm:block bg_pattern_trans w-[232px] h-[74px]'><span className='background_text'>Play now</span></button>
+                <button className='bg_pattern w-44 sm:w-[232px] h-10 sm:h-[74px] hover:scale-105 transition-all ease-in-out duration-300'>View All</button>
+                <button className='hidden sm:block bg_pattern_trans w-[232px] h-[74px] hover:scale-105 transition-all ease-in-out duration-300'><span className='background_text'>Play now</span></button>
             </span>
 
             {/* ADS Section */}
@@ -62,7 +62,7 @@ export const FavoriteSection = (props) => {
                     <span className='flex flex-col p-5 lg:p-0 gap-5 sm:gap-10 xl:mx-10'>
                         <p className='Bungee_font p-5 lg:p-0 lg:max-w-[530px] vsm:text-3xl sm:text-5xl uppercase'>Discover the Virtual Reality Gaming </p>
                         <p className=' max-w-[460px] text-sm vsm:text-base'>A well-designed gaming header often incorporates elements such as game characters, iconic symbols, vibrant colors, and dynamic visuals to convey excitement, adventure, and the immersive nature of gaming.</p>
-                        <button className='hidden sm:block Bungee_font uppercase text-xl bg_pattern_trans w-[232px] h-[74px]'><span className='background_text'>Play now</span></button>
+                        <button className='hidden sm:block Bungee_font uppercase text-xl bg_pattern_trans w-[232px] h-[74px] hover:scale-105 transition-all ease-in-out duration-300'><span className='background_text'>Play now</span></button>
                     </span>
                 </div>
             </article>
