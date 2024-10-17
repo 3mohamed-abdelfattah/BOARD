@@ -20,18 +20,18 @@ export const TopGameSection = () => {
     const styles = {
         ButtonStyle: `bg_pattern_trans w-[232px] h-[74px]`,
         LiveStyle: `bg_pattern uppercase font-bold mt-10 h-14`,
-        CardStyle: `glass_effect flex flex-col rounded-xl border border-white/10 p-5`
+        CardStyle: `glass_effect flex flex-col rounded-xl border border-white/10 p-1 vsm:p-5 mx-2 vsm:mx-0`
     }
     return (
         <main className='mt-20'>
 
             <header className='flex flex-col justify-center items-center gap-10 text-center'>
-                <p className='Bungee_font text-7xl uppercase max-w-[718px]'>
+                <p className='Bungee_font text-5xl sm:text-7xl uppercase max-w-[718px]'>
                     Welcome to the top <span className='background_text'>games</span>
                 </p>
 
                 {/* Buttons */}
-                <span className='Bungee_font flex justify-center uppercase text-xl'>
+                <span className='Bungee_font flex flex-wrap gap-2 justify-center uppercase text-xl'>
                     <button className='bg_pattern w-[232px] h-[74px]'>Newest games</button>
                     <button className={styles.ButtonStyle}><span className='background_text'>Latest games</span></button>
                     <button className={styles.ButtonStyle}><span className='background_text'>Fight games</span></button>
@@ -40,7 +40,7 @@ export const TopGameSection = () => {
             </header>
 
             {/* Game Card */}
-            <section className='relative flex justify-center flex-wrap gap-5 mt-24'>
+            <section className='relative flex justify-center flex-wrap gap-5 mt-10 sm:mt-24'>
 
                 {/* Card 1 */}
                 <div className={styles.CardStyle}>
@@ -132,7 +132,7 @@ export const TopGameSection = () => {
                 <div className='absolute rounded-full right-0 top-0 bg-secondaryBackgroundColor shrink-0 w-96 h-96 -z-20 blur-[250px]'></div>
 
             </section>
-            <div className="flex items-center overflow-hidden relative my-6 h-[90px]">
+            <div className="flex items-center overflow-hidden relative lg:my-6 h-14 md:h-[90px]">
                 <AdsBar />
             </div>
         </main>
