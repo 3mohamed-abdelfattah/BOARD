@@ -25,35 +25,6 @@ html {
     width: 0px;
 }
 
-
 .Bungee_font {
     font-family: "Bungee", sans-serif;
-}
-
-/* Patterns And Filters */
-.background_image {
-    mix-blend-mode: color-dodge;
-}
-
-.background_text {
-    background: url(@/assets/images/patterns/textColor.png);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: cover;
-    background-position: center;
-}
-
-.bg_pattern {
-    background-image: url(@/assets/images/patterns/Rectangle.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.bg_pattern_trans {
-    background-image: url(@/assets/images/patterns/Rectangle_trans.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }

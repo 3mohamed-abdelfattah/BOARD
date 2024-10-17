@@ -1,0 +1,54 @@
+/* Patterns And Filters */
+.background_image {
+    mix-blend-mode: color-dodge;
+}
+
+.background_text {
+    background: url(@/assets/images/patterns/textColor.png);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg_pattern {
+    background-image: url(@/assets/images/patterns/Rectangle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg_pattern_trans {
+    background-image: url(@/assets/images/patterns/Rectangle_trans.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.marquee-glass {
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 90px;
+    display: flex;
+    align-items: center;
+    transform: rotate(-1deg);
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.animate-marquee {
+    animation: marquee 15s linear infinite;
+    display: flex;
+    width: max-content;
+}

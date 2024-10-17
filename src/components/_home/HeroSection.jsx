@@ -1,10 +1,12 @@
 import React from 'react'
 // Images
 import HeroImage from '@/assets/images/for_hero/Art.png'
+// Components
+import { AdsBar } from '../custom/AdsBar'
 
 export const HeroSection = () => {
     return (
-        <main className='overflow-x-hidden'>
+        <main className='overflow-hidden '>
 
             {/* Hero Image & Flash Color */}
             <img src={HeroImage} alt='Hero Image' className='background_image absolute top-0 right-0 contrast-[1.15] -z-10' />
@@ -42,6 +44,7 @@ export const HeroSection = () => {
                 </span>
             </section>
 
+            <AdsBar />
         </main>
     )
 }
