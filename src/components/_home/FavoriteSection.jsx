@@ -15,6 +15,9 @@ export const FavoriteSection = (props) => {
                 <p className='max-w-[518px]'>Offer sneak peeks and previews of upcoming games, including trailers, screenshots, and information about release.</p>
             </header>
 
+            {/* Flash Color */}
+            <div className='absolute rounded-full bg-secondaryBackgroundColor shrink-0 w-96 h-96 -z-20 blur-[250px]'></div>
+
             {/* Image Slider */}
             <section className='flex justify-between overflow-clip gap-9 items-baseline mt-10'>
                 <div>
