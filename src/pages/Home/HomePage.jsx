@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import { Header, HeroSection, FavoriteSection, TopGameSection } from '@/components'
+import { Header, HeroSection, FavoriteSection, TopGameSection, ReviewSection } from '@/components'
 import '@/styles/home/homePage.css'
 
 export const HomePage = () => {
@@ -9,6 +9,7 @@ export const HomePage = () => {
             <HeroSection />
             <FavoriteSection GameTitle='sneak peeks' />
             <TopGameSection />
+            <ReviewSection />
         </Fragment>
     )
 }
