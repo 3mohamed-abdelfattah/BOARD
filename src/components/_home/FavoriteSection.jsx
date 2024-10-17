@@ -16,7 +16,7 @@ export const FavoriteSection = (props) => {
             </header>
 
             {/* Image Slider */}
-            <section className='flex justify-between items-baseline mt-10'>
+            <section className='flex justify-between overflow-clip gap-9 items-baseline mt-10'>
                 <div>
                     <img src={Game1} alt='Game Image' />
                 </div>
