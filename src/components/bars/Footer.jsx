@@ -8,12 +8,12 @@ import { AsusIcon, CanonIcon, FacebookIcon, GithubIcon, InstagramIcon, Microsoft
 
 export const Footer = () => {
     return (
-        <footer className='relative mt-32'>
-            <div className="glass_effect flex items-center overflow-hidden relative my-6 h-[90px] z-10">
+        <footer className='relative mt-10 sm:mt-32'>
+            <div className="glass_effect flex items-center overflow-hidden relative lg:my-6 h-14 md:h-[90px] z-10">
                 <AdsBar />
             </div>
 
-            <section className='footer_background absolute top-16 flex flex-col justify-center items-start p-2 vsm:pl-14 w-full'>
+            <section className='footer_background absolute top-10 lg:top-16 flex flex-col justify-center items-start p-2 vsm:pl-14 w-full'>
 
                 <div className='flex gap-10 lg:gap-28 xl:gap-32'>
                     {/* Logo & Description */}
