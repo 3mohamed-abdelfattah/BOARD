@@ -3,7 +3,7 @@ import StarIcon from '@/assets/images/patterns/start_icon.svg'
 
 export const AdsBar = () => {
     return (
-        <div className="Bungee_font flex gap-12 text-3xl whitespace-nowrap animate-marquee">
+        <div className="Bungee_font flex gap-12 text-xl md:text-3xl whitespace-nowrap animate-marquee">
             <span className="flex items-center gap-5">
                 <img src={StarIcon} alt="Icon Star" />
                 GAMING SPANNING

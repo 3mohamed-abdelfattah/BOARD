@@ -22,7 +22,6 @@ export const TopGameSection = () => {
         LiveStyle: `bg_pattern uppercase font-bold mt-10 h-14`,
         CardStyle: `glass_effect flex flex-col rounded-xl border border-white/10 p-5`
     }
-
     return (
         <main className='mt-20'>
 
