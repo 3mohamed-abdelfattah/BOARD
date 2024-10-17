@@ -20,7 +20,8 @@ export const TopGameSection = () => {
     const styles = {
         ButtonStyle: `bg_pattern_trans w-[232px] h-[74px]`,
         LiveStyle: `bg_pattern uppercase font-bold mt-10 h-14`,
-        CardStyle: `glass_effect flex flex-col rounded-xl border border-white/10 p-1 vsm:p-5 mx-2 vsm:mx-0`
+        CardStyle: `glass_effect flex flex-col rounded-xl border border-white/10 p-1 vsm:p-5 mx-2 vsm:mx-0`,
+        FlashStyle: `absolute rounded-full bg-secondaryBackgroundColor shrink-0 w-96 h-96 -z-20 blur-[250px]`,
     }
     return (
         <main className='mt-20'>
@@ -128,8 +129,8 @@ export const TopGameSection = () => {
 
 
                 {/* Flash Color */}
-                <div className='absolute rounded-full left-0 bottom-0 bg-secondaryBackgroundColor shrink-0 w-96 h-96 -z-20 blur-[250px]'></div>
-                <div className='absolute rounded-full right-0 top-0 bg-secondaryBackgroundColor shrink-0 w-96 h-96 -z-20 blur-[250px]'></div>
+                <div className={`${styles.FlashStyle} left-0 bottom-0`}></div>
+                <div className={`${styles.FlashStyle} right-0 top-0`}></div>
 
             </section>
             <div className="flex items-center overflow-hidden relative lg:my-6 h-14 md:h-[90px]">
