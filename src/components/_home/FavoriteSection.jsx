@@ -3,6 +3,7 @@ import React from 'react'
 import Game1 from '@/assets/images/slide_game/game1.png'
 import Game2 from '@/assets/images/slide_game/game3.png'
 import Game3 from '@/assets/images/slide_game/game2.png'
+import ADSPhoto from '@/assets/images/for_hero/ads.png'
 
 export const FavoriteSection = (props) => {
     return (
@@ -37,6 +38,28 @@ export const FavoriteSection = (props) => {
                 <button className='bg_pattern w-[232px] h-[74px]'>View All</button>
                 <button className='bg_pattern_trans w-[232px] h-[74px]'><span className='background_text'>Play now</span></button>
             </span>
+
+            {/* ADS Section */}
+            <article className='flex justify-center w-full mt-28'>
+
+                {/* Flash Color */}
+                <div className='absolute rounded-full bg-secondaryBackgroundColor shrink-0 w-96 h-96 right-0 -z-20 blur-[250px]'></div>
+                <div className='absolute rounded-full bg-secondaryBackgroundColor/50 shrink-0 w-96 h-96 right-0 -z-20 blur-[250px]'></div>
+                <div className='absolute rounded-full bg-secondaryBackgroundColor shrink-0 w-96 h-96 left-0 -z-20 blur-[250px]'></div>
+
+                <div className='glass_effect relative flex justify-between items-center mx-36 w-full h-[556px] rounded-xl border border-white/10'>
+                    {/* Photo */}
+                    <span>
+                        <img src={ADSPhoto} alt='ADS Photo' className='absolute bottom-0 left-0' />
+                    </span>
+                    {/* Info */}
+                    <span className='flex flex-col gap-10 mx-10'>
+                        <p className='Bungee_font max-w-[530px] text-5xl uppercase'>Discover the Virtual Reality Gaming </p>
+                        <p className=' max-w-[460px]'>A well-designed gaming header often incorporates elements such as game characters, iconic symbols, vibrant colors, and dynamic visuals to convey excitement, adventure, and the immersive nature of gaming.</p>
+                        <button className='Bungee_font uppercase text-xl bg_pattern_trans w-[232px] h-[74px]'><span className='background_text'>Play now</span></button>
+                    </span>
+                </div>
+            </article>
 
         </main>
     )
