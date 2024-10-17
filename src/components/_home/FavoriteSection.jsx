@@ -1,6 +1,10 @@
 import React from 'react'
+// Images
+import Game1 from '@/assets/images/slide_game/game1.png'
+import Game2 from '@/assets/images/slide_game/game3.png'
+import Game3 from '@/assets/images/slide_game/game2.png'
 
-export const FavoriteSection = () => {
+export const FavoriteSection = (props) => {
     return (
         <main className='mt-20'>
 
@@ -10,6 +14,26 @@ export const FavoriteSection = () => {
                 </p>
                 <p className='max-w-[518px]'>Offer sneak peeks and previews of upcoming games, including trailers, screenshots, and information about release.</p>
             </header>
+
+            {/* Image Slider */}
+            <section className='flex justify-between items-baseline mt-10'>
+                <div>
+                    <img src={Game1} alt='Game Image' />
+                </div>
+                <div className='relative'>
+                    <img src={Game2} alt='Game Image' />
+                    <p className='Bungee_font uppercase absolute bottom-1 w-full text-center text-3xl'>{props.GameTitle}</p>
+                </div>
+                <div>
+                    <img src={Game3} alt='Game Image' />
+                </div>
+            </section>
+
+            {/* Buttons */}
+            <span className='Bungee_font flex justify-center uppercase text-xl mt-20'>
+                <button className='bg_pattern w-[232px] h-[74px]'>View All</button>
+                <button className='bg_pattern_trans w-[232px] h-[74px]'><span className='background_text'>Play now</span></button>
+            </span>
 
         </main>
     )

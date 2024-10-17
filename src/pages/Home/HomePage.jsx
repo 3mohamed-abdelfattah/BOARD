@@ -12,7 +12,7 @@ export const HomePage = () => {
         <Fragment>
             <Header />
             <HeroSection />
-            <FavoriteSection />
+            <FavoriteSection GameTitle='sneak peeks' />
         </Fragment>
     )
 }
