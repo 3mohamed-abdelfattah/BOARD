@@ -47,3 +47,11 @@
     display: flex;
     width: max-content;
 }
+
+/* Footer Style */
+.footer_background {
+    background-image: url(../../assets/images/for_hero/footer.png);
+    background-position: center;
+    background-size: cover;
+    height: 529px;
+}

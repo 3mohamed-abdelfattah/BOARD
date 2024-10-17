@@ -1,6 +1,4 @@
 import React from 'react'
-// Component
-import { AdsBar } from '../custom/AdsBar'
 // Icons
 import { FiveStarIcon } from '@/utils/icons.util'
 import Verified from '@/assets/images/image_icons/Verified.svg'
@@ -87,9 +85,6 @@ export const ReviewSection = () => {
                 {/* Flash Color */}
                 <div className='absolute rounded-full bg-secondaryBackgroundColor right-0 shrink-0 w-96 h-96 -z-20 blur-[250px]'></div>
             </section>
-            <div className="glass_effect flex items-center overflow-hidden relative my-6 h-[90px]">
-                <AdsBar />
-            </div>
         </main>
     )
 }
