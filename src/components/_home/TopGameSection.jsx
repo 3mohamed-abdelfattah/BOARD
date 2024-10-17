@@ -1,4 +1,6 @@
 import React from 'react'
+// Component
+import { AdsBar } from '../custom/AdsBar'
 // Character Images 
 import Character1 from '@/assets/images/game_character/character1.png'
 import Character2 from '@/assets/images/game_character/character2.png'
@@ -131,6 +133,9 @@ export const TopGameSection = () => {
                 <div className='absolute rounded-full right-0 top-0 bg-secondaryBackgroundColor shrink-0 w-96 h-96 -z-20 blur-[250px]'></div>
 
             </section>
+            <div className="flex items-center overflow-hidden relative my-6 h-[90px]">
+                <AdsBar />
+            </div>
         </main>
     )
 }

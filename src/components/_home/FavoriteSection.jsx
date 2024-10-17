@@ -1,5 +1,5 @@
 import React from 'react'
-// Components
+// Component
 import { AdsBar } from '../custom/AdsBar'
 // Images
 import Game1 from '@/assets/images/slide_game/game1.png'
