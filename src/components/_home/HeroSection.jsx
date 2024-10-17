@@ -44,7 +44,9 @@ export const HeroSection = () => {
                 </span>
             </section>
 
-            <AdsBar />
+            <div className="glass_effect flex items-center overflow-hidden relative my-6 h-[90px] -rotate-1">
+                <AdsBar />
+            </div>
         </main>
     )
 }

@@ -1,4 +1,6 @@
 import React from 'react'
+// Components
+import { AdsBar } from '../custom/AdsBar'
 // Images
 import Game1 from '@/assets/images/slide_game/game1.png'
 import Game2 from '@/assets/images/slide_game/game3.png'
@@ -61,6 +63,9 @@ export const FavoriteSection = (props) => {
                 </div>
             </article>
 
+            <div className="flex items-center overflow-hidden relative my-6 h-[90px]">
+                <AdsBar />
+            </div>
         </main>
     )
 }
