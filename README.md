@@ -22,19 +22,19 @@ The **Board Gaming Platform** introduces users to a futuristic gaming experience
 ## Screenshots
 
  <table align="center">
-  <tr>
+  <tr align='center'>
     <td><img src="https://github.com/user-attachments/assets/c491c7c1-80c7-45d4-9ef8-2bb79a0260e3" alt="Image" /></td>
     <td><img src="https://github.com/user-attachments/assets/ca8472d9-43f7-49c9-8f6e-48a858192b0e" alt="Image" /></td>
   </tr>
-  <tr>
+  <tr align='center'>
     <td><img src="https://github.com/user-attachments/assets/f2c76fe2-36bb-431d-b318-0ee9d24c3d5a" alt="Image" /></td>
     <td><img src="https://github.com/user-attachments/assets/f41ff3c1-454f-4194-a53e-732c7986d9c1" alt="Image" /></td>
   </tr>
-  <tr>
+  <tr align='center'>
     <td><img src="https://github.com/user-attachments/assets/89199e42-8111-4255-bf4e-7d3afe1a8587" alt="Image" /></td>
     <td><img src="https://github.com/user-attachments/assets/220e5af7-a29d-4d96-9970-b448311a066b" alt="Image" /></td>
   </tr>
-  <tr>
+  <tr align='center'>
     <td><img width='320px' src="https://github.com/user-attachments/assets/7b01ac78-e080-4d4e-b0e6-9e7e15ed1805" alt="Image" /></td>
     <td><img width='320px' src="https://github.com/user-attachments/assets/540aa6e9-9efe-4712-a09e-8374eeb6b54e" alt="Image" /></td>
   </tr>
