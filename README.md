@@ -39,7 +39,7 @@ The **Board Gaming Platform** introduces users to a futuristic gaming experience
     <td><img width='320px' src="https://github.com/user-attachments/assets/540aa6e9-9efe-4712-a09e-8374eeb6b54e" alt="Image" /></td>
   </tr>
   <tr align='center'>
-    <td><img width='320px' src="https://github.com/user-attachments/assets/68dd9279-7a5d-4797-81c0-9a10c88892eb" alt="Image" /></td>
+    <td><img width='320px' src="https://github.com/user-attachments/assets/16920a6a-ce03-4f80-8691-0b0e84962a71" alt="Image" /></td>
     <td><img width='320px' src="https://github.com/user-attachments/assets/94e4eab3-a0cb-4813-9cc5-31968da61673" alt="Image" /></td>
   </tr>
 </table>
