@@ -18,7 +18,7 @@ import Person6 from '@/assets/images/people/person6.svg';
 
 export const TopGameSection = () => {
     const styles = {
-        ButtonStyle: `bg_pattern_trans hover:scale-105 w-[232px] h-[74px] transition-all ease-in-out duration-300`,
+        ButtonStyle: `bg_pattern_trans w-[232px] h-[74px] hover:scale-105 transition-all ease-in-out duration-300`,
         LiveStyle: `bg_pattern uppercase hover:scale-105 font-bold mt-10 h-14 transition-all ease-in-out duration-300`,
         CardStyle: `glass_effect flex flex-col rounded-xl border border-white/10 p-1 vsm:p-5 mx-2 vsm:mx-0`,
         FlashStyle: `absolute rounded-full bg-secondaryBackgroundColor shrink-0 w-96 h-96 -z-20 blur-[250px]`,
@@ -33,10 +33,18 @@ export const TopGameSection = () => {
 
                 {/* Buttons */}
                 <span className='Bungee_font flex flex-wrap gap-2 justify-center uppercase text-xl'>
-                    <button data-aos="fade-right" data-aos-duration="2000" className='bg_pattern hover:scale-105 w-[232px] h-[74px] transition-all ease-in-out duration-300'>Newest games</button>
-                    <button data-aos="fade-right" data-aos-duration="2000" className={styles.ButtonStyle}><span className='background_text'>Latest games</span></button>
-                    <button data-aos="fade-right" data-aos-duration="2000" className={styles.ButtonStyle}><span className='background_text'>Fight games</span></button>
-                    <button data-aos="fade-right" data-aos-duration="2000" className={styles.ButtonStyle}><span className='background_text'>sport games</span></button>
+                    <span data-aos="fade-right" data-aos-duration="2000">
+                        <button className='bg_pattern hover:scale-105 w-[232px] h-[74px] transition-all ease-in-out duration-300'>Newest games</button>
+                    </span>
+                    <span data-aos="fade-right" data-aos-duration="2000" >
+                        <button className={styles.ButtonStyle}><span className='background_text'>Latest games</span></button>
+                    </span>
+                    <span data-aos="fade-right" data-aos-duration="2000">
+                        <button className={styles.ButtonStyle}><span className='background_text'>Fight games</span></button>
+                    </span>
+                    <span data-aos="fade-right" data-aos-duration="2000">
+                        <button className={styles.ButtonStyle}><span className='background_text'>sport games</span></button>
+                    </span>
                 </span>
             </header>
 

@@ -40,8 +40,12 @@ export const FavoriteSection = (props) => {
 
             {/* Buttons */}
             <span className='Bungee_font flex justify-center uppercase sm:text-xl mt-5 sm:mt-20'>
-                <button data-aos="fade-right" data-aos-duration="2000" className='bg_pattern w-44 sm:w-[232px] h-10 sm:h-[74px] hover:scale-105 transition-all ease-in-out duration-300'>View All</button>
-                <button data-aos="fade-left" data-aos-duration="2000" className='hidden sm:block bg_pattern_trans w-[232px] h-[74px] hover:scale-105 transition-all ease-in-out duration-300'><span className='background_text'>Play now</span></button>
+                <span data-aos="fade-right" data-aos-duration="2000">
+                    <button className='bg_pattern w-44 sm:w-[232px] h-10 sm:h-[74px] hover:scale-105 transition-all ease-in-out duration-300'>View All</button>
+                </span>
+                <span data-aos="fade-left" data-aos-duration="2000">
+                    <button className='hidden sm:block bg_pattern_trans w-[232px] h-[74px] hover:scale-105 transition-all ease-in-out duration-300'><span className='background_text'>Play now</span></button>
+                </span>
             </span>
 
             {/* ADS Section */}
@@ -62,7 +66,9 @@ export const FavoriteSection = (props) => {
                     <span className='flex flex-col p-5 lg:p-0 gap-5 sm:gap-10 xl:ml-20'>
                         <p data-aos="zoom-in" data-aos-duration="2000" className='Bungee_font lg:p-0 lg:max-w-[530px] vsm:text-3xl sm:text-5xl uppercase'>Discover the Virtual Reality Gaming </p>
                         <p data-aos="zoom-in" data-aos-duration="2000" className=' max-w-[460px] text-sm vsm:text-base'>A well-designed gaming header often incorporates elements such as game characters, iconic symbols, vibrant colors, and dynamic visuals to convey excitement, adventure, and the immersive nature of gaming.</p>
-                        <button data-aos="zoom-in" data-aos-duration="2000" className='hidden sm:block Bungee_font uppercase text-xl bg_pattern_trans w-[232px] h-[74px] hover:scale-105 transition-all ease-in-out duration-300'><span className='background_text'>Play now</span></button>
+                        <span data-aos="zoom-in" data-aos-duration="2000">
+                            <button className='hidden sm:block Bungee_font uppercase text-xl bg_pattern_trans w-[232px] h-[74px] hover:scale-105 transition-all ease-in-out duration-300'><span className='background_text'>Play now</span></button>
+                        </span>
                     </span>
                 </div>
             </article>
