@@ -1,4 +1,4 @@
-# Board Gaming Platform
+# BOARD Gaming Platform
 
 **Let Your Mind Explore a New World**
 
