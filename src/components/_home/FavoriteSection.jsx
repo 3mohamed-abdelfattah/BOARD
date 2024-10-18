@@ -15,10 +15,10 @@ export const FavoriteSection = (props) => {
         <main className='mt-20'>
 
             <header className='flex flex-col justify-center items-center gap-3 text-center'>
-                <p className='Bungee_font text-5xl sm:text-7xl uppercase max-w-[718px]'>
+                <p className='Bungee_font text-5xl sm:text-7xl uppercase max-w-[718px]' data-aos="zoom-in" data-aos-duration="3000">
                     choose your <span className='background_text'>favorite</span> games
                 </p>
-                <p className='max-w-[518px]'>Offer sneak peeks and previews of upcoming games, including trailers, screenshots, and information about release.</p>
+                <p className='max-w-[518px] px-3' data-aos="zoom-in" data-aos-duration="3000">Offer sneak peeks and previews of upcoming games, including trailers, screenshots, and information about release.</p>
             </header>
 
             {/* Flash Color */}
@@ -26,22 +26,22 @@ export const FavoriteSection = (props) => {
 
             {/* Image Slider */}
             <section className='flex justify-between overflow-clip gap-3 sm:gap-9 items-baseline mt-5 sm:mt-10'>
-                <div>
+                <div className='hidden sm:block' data-aos="fade-right" data-aos-duration="2000">
                     <img src={Game1} alt='Game Image' />
                 </div>
-                <div className='relative'>
+                <div className='relative mx-5 sm:mx-0' data-aos="zoom-in" data-aos-duration="2000">
                     <img src={Game2} alt='Game Image' />
                     <p className='hidden md:block Bungee_font uppercase absolute bottom-0 2xl:bottom-1 w-full text-center md:text-lg lg:text-2xl xl:text-3xl'>{props.GameTitle}</p>
                 </div>
-                <div>
-                    <img src={Game3} alt='Game Image' />
+                <div className='hidden sm:block'>
+                    <img src={Game3} alt='Game Image' data-aos="fade-left" data-aos-duration="2000" />
                 </div>
             </section>
 
             {/* Buttons */}
             <span className='Bungee_font flex justify-center uppercase sm:text-xl mt-5 sm:mt-20'>
-                <button className='bg_pattern w-44 sm:w-[232px] h-10 sm:h-[74px] hover:scale-105 transition-all ease-in-out duration-300'>View All</button>
-                <button className='hidden sm:block bg_pattern_trans w-[232px] h-[74px] hover:scale-105 transition-all ease-in-out duration-300'><span className='background_text'>Play now</span></button>
+                <button data-aos="fade-right" data-aos-duration="2000" className='bg_pattern w-44 sm:w-[232px] h-10 sm:h-[74px] hover:scale-105 transition-all ease-in-out duration-300'>View All</button>
+                <button data-aos="fade-left" data-aos-duration="2000" className='hidden sm:block bg_pattern_trans w-[232px] h-[74px] hover:scale-105 transition-all ease-in-out duration-300'><span className='background_text'>Play now</span></button>
             </span>
 
             {/* ADS Section */}
@@ -52,17 +52,17 @@ export const FavoriteSection = (props) => {
                 <div className='absolute rounded-full bg-secondaryBackgroundColor/50 shrink-0 w-96 h-96 right-0 -z-20 blur-[250px]'></div>
                 <div className={`${styles.FlashStyle} left-0`}></div>
 
-                <div className='glass_effect relative flex flex-col-reverse lg:flex-row justify-between items-center mx-5 xl:mx-36 w-full 2xl:h-[556px] rounded-xl border border-white/10'>
+                <div className='glass_effect relative flex flex-col-reverse lg:flex-row justify-between items-center py-0 lg:py-5 mx-5 xl:mx-36 w-full 2xl:h-[556px] rounded-xl border border-white/10'>
                     {/* Photo */}
                     <span className='hidden xl:block'>
-                        <img src={ADSPhoto} alt='ADS Photo' className='absolute bottom-0 left-0 w-1/2 2xl:w-auto' />
+                        <img src={ADSPhoto} alt='ADS Photo' className='absolute bottom-0 -left-5 w-1/2 2xl:w-auto' />
                     </span>
                     <img src={ADSPhoto} alt='ADS Photo' className='xl:hidden' />
                     {/* Info */}
-                    <span className='flex flex-col p-5 lg:p-0 gap-5 sm:gap-10 xl:mx-10'>
-                        <p className='Bungee_font p-5 lg:p-0 lg:max-w-[530px] vsm:text-3xl sm:text-5xl uppercase'>Discover the Virtual Reality Gaming </p>
-                        <p className=' max-w-[460px] text-sm vsm:text-base'>A well-designed gaming header often incorporates elements such as game characters, iconic symbols, vibrant colors, and dynamic visuals to convey excitement, adventure, and the immersive nature of gaming.</p>
-                        <button className='hidden sm:block Bungee_font uppercase text-xl bg_pattern_trans w-[232px] h-[74px] hover:scale-105 transition-all ease-in-out duration-300'><span className='background_text'>Play now</span></button>
+                    <span className='flex flex-col p-5 lg:p-0 gap-5 sm:gap-10 xl:ml-20'>
+                        <p data-aos="zoom-in" data-aos-duration="2000" className='Bungee_font lg:p-0 lg:max-w-[530px] vsm:text-3xl sm:text-5xl uppercase'>Discover the Virtual Reality Gaming </p>
+                        <p data-aos="zoom-in" data-aos-duration="2000" className=' max-w-[460px] text-sm vsm:text-base'>A well-designed gaming header often incorporates elements such as game characters, iconic symbols, vibrant colors, and dynamic visuals to convey excitement, adventure, and the immersive nature of gaming.</p>
+                        <button data-aos="zoom-in" data-aos-duration="2000" className='hidden sm:block Bungee_font uppercase text-xl bg_pattern_trans w-[232px] h-[74px] hover:scale-105 transition-all ease-in-out duration-300'><span className='background_text'>Play now</span></button>
                     </span>
                 </div>
             </article>

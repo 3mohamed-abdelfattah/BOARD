@@ -10,6 +10,10 @@
     -webkit-text-fill-color: transparent;
     background-size: cover;
     background-position: center;
+
+    &:hover {
+        -webkit-text-fill-color: white;
+    }
 }
 
 .bg_pattern {
@@ -17,6 +21,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    &:hover {
+        background-image: url(@/assets/images/patterns/Rectangle_trans.png);
+    }
 }
 
 .bg_pattern_trans {
@@ -24,6 +32,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    &:hover {
+        background-image: url(@/assets/images/patterns/Rectangle.png);
+    }
 }
 
 .glass_effect {

@@ -26,7 +26,7 @@ export const Footer = () => {
                     </div>
 
                     {/* company */}
-                    <div className='hidden md:flex flex-col gap-8 capitalize'>
+                    <div className='hidden md:flex flex-col gap-6 capitalize'>
                         <p className='text-lg font-bold uppercase'>company</p>
                         <p>products</p>
                         <p>apps & games</p>
@@ -34,7 +34,7 @@ export const Footer = () => {
                     </div>
 
                     {/* help */}
-                    <div className='hidden sm:flex flex-col gap-8 capitalize'>
+                    <div className='hidden sm:flex flex-col gap-6 capitalize'>
                         <p className='text-lg font-bold uppercase'>help</p>
                         <p>support</p>
                         <p>about</p>
@@ -42,7 +42,7 @@ export const Footer = () => {
                     </div>
 
                     {/* resources */}
-                    <div className='hidden sm:flex flex-col gap-8 capitalize'>
+                    <div className='hidden sm:flex flex-col gap-6 capitalize'>
                         <p className='text-lg font-bold uppercase'>resources</p>
                         <p>youtube playlist</p>
                         <p>how to - blog</p>
@@ -51,7 +51,7 @@ export const Footer = () => {
                 </div>
 
                 {/* Company Logos */}
-                <span className='flex flex-wrap gap-6 items-center mt-10'>
+                <span className='flex flex-wrap gap-6 items-center mt-16'>
                     <TwitchIcon />
                     <RobloxIcon />
                     <AsusIcon />

@@ -25,7 +25,7 @@ export const ReviewSection = () => {
             <section className='flex justify-center flex-wrap gap-5 mt-24'>
 
                 {/* Card 1*/}
-                <div className={styles.CardContainerStyle}>
+                <div className={styles.CardContainerStyle} data-aos="fade-right" data-aos-duration="2000">
                     {/* Review Info */}
                     <span>
                         <FiveStarIcon />
@@ -58,7 +58,7 @@ export const ReviewSection = () => {
                 </div>
 
                 {/* Card 2*/}
-                <div className={styles.CardContainerStyle}>
+                <div className={styles.CardContainerStyle}data-aos="fade-left" data-aos-duration="2000">
                     {/* Review Info */}
                     <span>
                         <FiveStarIcon />

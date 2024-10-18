@@ -21,6 +21,11 @@ html {
     width: 0px;
 }
 
+::selection {
+    color: #2D1E6B;
+    background-color: #DD00B8;
+}
+
 .Bungee_font {
     font-family: "Bungee", sans-serif;
 }

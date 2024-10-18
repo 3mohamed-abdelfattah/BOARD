@@ -27,16 +27,16 @@ export const TopGameSection = () => {
         <main className='mt-20'>
 
             <header className='flex flex-col justify-center items-center gap-10 text-center'>
-                <p className='Bungee_font text-5xl sm:text-7xl uppercase max-w-[718px]'>
+                <p className='Bungee_font text-5xl sm:text-7xl uppercase max-w-[718px]' data-aos="zoom-in" data-aos-duration="2000">
                     Welcome to the top <span className='background_text'>games</span>
                 </p>
 
                 {/* Buttons */}
                 <span className='Bungee_font flex flex-wrap gap-2 justify-center uppercase text-xl'>
-                    <button className='bg_pattern hover:scale-105 w-[232px] h-[74px] transition-all ease-in-out duration-300'>Newest games</button>
-                    <button className={styles.ButtonStyle}><span className='background_text'>Latest games</span></button>
-                    <button className={styles.ButtonStyle}><span className='background_text'>Fight games</span></button>
-                    <button className={styles.ButtonStyle}><span className='background_text'>sport games</span></button>
+                    <button data-aos="fade-right" data-aos-duration="2000" className='bg_pattern hover:scale-105 w-[232px] h-[74px] transition-all ease-in-out duration-300'>Newest games</button>
+                    <button data-aos="fade-right" data-aos-duration="2000" className={styles.ButtonStyle}><span className='background_text'>Latest games</span></button>
+                    <button data-aos="fade-right" data-aos-duration="2000" className={styles.ButtonStyle}><span className='background_text'>Fight games</span></button>
+                    <button data-aos="fade-right" data-aos-duration="2000" className={styles.ButtonStyle}><span className='background_text'>sport games</span></button>
                 </span>
             </header>
 
@@ -44,10 +44,10 @@ export const TopGameSection = () => {
             <section className='relative flex justify-center flex-wrap gap-5 mt-10 sm:mt-24'>
 
                 {/* Card 1 */}
-                <div className={styles.CardStyle}>
+                <div className={styles.CardStyle} data-aos="fade-right" data-aos-duration="2000">
                     <img src={Character1} alt='Game Character' />
-                    <p className='text-2xl my-6 capitalize'>Master Chief</p>
-                    <span className='flex items-center gap-3'>
+                    <p className='text-2xl my-6 capitalize pl-3 vsm:pl-0'>Master Chief</p>
+                    <span className='flex items-center gap-3 pl-3 vsm:pl-0'>
                         <img src={Person1} alt='Game Character' />
                         <span>
                             <p className='text-lg font-medium'>Cameron Williamson</p>
@@ -58,10 +58,10 @@ export const TopGameSection = () => {
                 </div>
 
                 {/* Card 2 */}
-                <div className={styles.CardStyle}>
+                <div className={styles.CardStyle} data-aos="fade-right" data-aos-duration="2000">
                     <img src={Character2} alt='Game Character' />
-                    <p className='text-2xl my-6 capitalize'>Lara Croft</p>
-                    <span className='flex items-center gap-3'>
+                    <p className='text-2xl my-6 capitalize pl-3 vsm:pl-0'>Lara Croft</p>
+                    <span className='flex items-center gap-3 pl-3 vsm:pl-0'>
                         <img src={Person2} alt='Game Character' />
                         <span>
                             <p className='text-lg font-medium'>Dianne Russell</p>
@@ -72,10 +72,10 @@ export const TopGameSection = () => {
                 </div>
 
                 {/* Card 3 */}
-                <div className={styles.CardStyle}>
+                <div className={styles.CardStyle} data-aos="fade-right" data-aos-duration="2000">
                     <img src={Character3} alt='Game Character' />
-                    <p className='text-2xl my-6 capitalize'>Geralt of Rivia</p>
-                    <span className='flex items-center gap-3'>
+                    <p className='text-2xl my-6 capitalize pl-3 vsm:pl-0'>Geralt of Rivia</p>
+                    <span className='flex items-center gap-3 pl-3 vsm:pl-0'>
                         <img src={Person3} alt='Game Character' />
                         <span>
                             <p className='text-lg font-medium'>Jane Cooper</p>
@@ -86,10 +86,10 @@ export const TopGameSection = () => {
                 </div>
 
                 {/* Card 4 */}
-                <div className={styles.CardStyle}>
+                <div className={styles.CardStyle} data-aos="fade-left" data-aos-duration="2000">
                     <img src={Character4} alt='Game Character' />
-                    <p className='text-2xl my-6 capitalize'>Link</p>
-                    <span className='flex items-center gap-3'>
+                    <p className='text-2xl my-6 capitalize pl-3 vsm:pl-0'>Link</p>
+                    <span className='flex items-center gap-3 pl-3 vsm:pl-0'>
                         <img src={Person4} alt='Game Character' />
                         <span>
                             <p className='text-lg font-medium'>Cody Fisher</p>
@@ -100,10 +100,10 @@ export const TopGameSection = () => {
                 </div>
 
                 {/* Card 5 */}
-                <div className={styles.CardStyle}>
+                <div className={styles.CardStyle} data-aos="fade-left" data-aos-duration="2000">
                     <img src={Character5} alt='Game Character' />
-                    <p className='text-2xl my-6 capitalize'>Kratos</p>
-                    <span className='flex items-center gap-3'>
+                    <p className='text-2xl my-6 capitalize pl-3 vsm:pl-0'>Kratos</p>
+                    <span className='flex items-center gap-3 pl-3 vsm:pl-0'>
                         <img src={Person5} alt='Game Character' />
                         <span>
                             <p className='text-lg font-medium'>Wade Warren</p>
@@ -114,10 +114,10 @@ export const TopGameSection = () => {
                 </div>
 
                 {/* Card 6 */}
-                <div className={styles.CardStyle}>
+                <div className={styles.CardStyle} data-aos="fade-left" data-aos-duration="2000">
                     <img src={Character6} alt='Game Character' />
-                    <p className='text-2xl my-6 capitalize'>Samus Aran</p>
-                    <span className='flex items-center gap-3'>
+                    <p className='text-2xl my-6 capitalize pl-3 vsm:pl-0'>Samus Aran</p>
+                    <span className='flex items-center gap-3 pl-3 vsm:pl-0'>
                         <img src={Person6} alt='Game Character' />
                         <span>
                             <p className='text-lg font-medium'>Robert Fox</p>
