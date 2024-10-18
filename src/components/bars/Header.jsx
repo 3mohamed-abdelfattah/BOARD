@@ -28,7 +28,7 @@ export const Header = () => {
 
             {/* Nav Bar */}
             <span>
-                <ul className='hidden lg:flex uppercase gap-10 text-lg' data-aos="fade-left" data-aos-duration="2000">
+                <ul className='hidden lg:flex uppercase gap-10 text-lg' data-aos="fade-left" data-aos-duration="1500">
                     <li className={`${styles.HoverStyle} font-extrabold hover:text-secondaryBackgroundColor transition-colors duration-300`}>
                         Products
                     </li>
@@ -48,14 +48,14 @@ export const Header = () => {
             </span>
 
             {/* Cart */}
-            <span className={`${styles.HoverStyle} relative`} data-aos="fade-left" data-aos-duration="3000">
-                <CartIcon className='transition-transform duration-500 ease-in-out transform hover:scale-125' />
-                <img
-                    src={CircleDot}
-                    className='absolute -right-1 top-0 w-3 animate-pulse'
-                    alt='CircleDot Icon'
-                />
-            </span>
+            <span className={`${styles.HoverStyle} relative`}>
+                    <CartIcon className='transition-transform duration-500 ease-in-out transform hover:scale-125' />
+                    <img
+                        src={CircleDot}
+                        className='absolute -right-1 top-0 w-3 animate-pulse'
+                        alt='CircleDot Icon'
+                    />
+                </span>
 
         </header>
     )
